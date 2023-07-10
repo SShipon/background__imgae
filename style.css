@@ -1,0 +1,119 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.header___container{
+   background-image: url('./image/b3.925ea52eb4c41c1c541c.png');
+   width: 100%;
+   height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.main__container{
+   width: 100%;
+
+}
+
+.header__container__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container__content{
+     color: #ffff;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     top: 0;
+     padding: 5px;
+     margin: auto;
+
+}
+.container__content p{
+  padding: 4px;
+}
+
+
+.services___container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.service__parent___container{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ justify-content: center;
+}
+
+
+
+
+@media only screen and (max-width: 688px) {
+    .header___container{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .container__content{
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+      }
+
+      .services___container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+      }
+      
+      .service__parent___container{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       justify-content: center;
+      }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
